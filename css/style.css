@@ -705,7 +705,9 @@ h4.team-member-designation
 
 .freeimage img
 {
-    margin-top: -45px;
+    margin-top: 55px;
+    width: 400px;
+    height: 200px;
 }
 
 
@@ -745,6 +747,7 @@ h4.team-member-designation
     border-radius: 50%;
     display: inline-block;
     margin-top: 70px;
+    margin-right: 172px;
     margin-bottom: 40px;
     box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
     -webkit-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
@@ -796,10 +799,20 @@ h4.team-member-designation
 
 }
 
+.img-responsive {
+    display: block;
+    width: 360px;
+    height: 273px;
+}
+
 .news-img
 {
     position: relative;
+    width: 360px;
+    height: 260px;
 }
+
+
 
 .news-img:before
 {
@@ -928,9 +941,9 @@ h4.team-member-designation
     color: #34495e;
     margin-right: 0;
     text-decoration: none;
-
-
 }
+
+
 
 /*=======================================
             Blog style Ends
@@ -945,13 +958,13 @@ h4.team-member-designation
 
 .stat
 {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(..//img/cover-bg-1.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(..//img/slogan:brand.png);
     background-position: center;
     padding-top: 180px;
     padding-bottom: 200px;
     color: white;
     background-attachment: fixed;
-    margin-top: 100px;
+    margin-top: 0px;
 
 }
 
