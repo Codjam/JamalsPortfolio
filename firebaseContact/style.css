@@ -1026,6 +1026,15 @@ h4.team-member-designation
     border-radius: 0px;
 }
 
+.alert
+{
+  text-align: center;
+  padding: 10px;
+  background: #2C3E50;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
+}
 .border-bottom-now
 {
     width: 40px;
