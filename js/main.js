@@ -79,3 +79,53 @@
      new WOW().init();
 
  });
+
+
+ // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBJ3BKz-33EmJiPpg-pXvJNiUSXaSTYFwI",
+    authDomain: "contactformportfolio-8bb52.firebaseapp.com",
+    databaseURL: "https://contactformportfolio-8bb52.firebaseio.com",
+    projectId: "contactformportfolio-8bb52",
+    storageBucket: "contactformportfolio-8bb52.appspot.com",
+    messagingSenderId: "768198699806"
+  };
+  firebase.initializeApp(config);
+
+  // Reference messages collection
+  var messagesRef = firebase.database().ref('messages');
+
+ //Listen for form submit
+ document.getElementById('contactform').addEventListener('submit',submitForm);
+
+// Submit form
+ function submitForm(e){
+   e.preventDefault();
+
+   //Get values
+   var name = getInputVal('name');
+   var email = getInputVal('email');
+   var subject = getInputVal('subject');
+   var message = getInputVal('message');
+
+   //Save message
+   saveMessage(name, email, subject, message);
+
+   
+ }
+
+ //functiono to get form values
+ function getInputVal(id){
+   return document.getElementById(id).value;
+ }
+
+ //Save message to firebase
+ function saveMessage(name, email, subject, message){
+   var newMessageRef = messagesRef.push();
+   newMessageRef.set({
+     name: name,
+     email: email,
+     subject: subject,
+     message: message
+   });
+ }
