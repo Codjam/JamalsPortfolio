@@ -8,6 +8,7 @@ body
 }
 
 
+
 .pace-running .entire-content
 {
     opacity: 0;
@@ -50,8 +51,9 @@ body
 
 .navbar ul li a
 {
-    color: white !important;
+    color: white;
     text-transform: uppercase;
+
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 13px;
@@ -1118,7 +1120,6 @@ h4.team-member-designation
 {
     margin: 0 16px 20px 16px;
     display: inline-block;
-
 }
 
 
