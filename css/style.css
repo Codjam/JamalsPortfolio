@@ -587,7 +587,7 @@ h4.team-member-designation
 
 .testimonials
 {
-    background-image: url(http://placeimg.com/640/480/nature/sepia);
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/15/08/15/universe-1044107__340.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -968,7 +968,7 @@ h4.team-member-designation
     color: white;
     background-attachment: fixed;
     margin-top: 0px;
-
+    /* border-bottom: 500px; */
 }
 
 
