@@ -707,9 +707,12 @@ h4.team-member-designation
 
 .freeimage img
 {
-    margin-top: 55px;
-    width: 400px;
+    margin-top: 50px;
+    margin-left: 125px;
+    max-width: 120%;
     height: 200px;
+    object-fit: cover;
+    border-radius: 120px;
 }
 
 
@@ -1155,4 +1158,8 @@ h4.team-member-designation
     margin: 0 auto;
     margin-top: 20px;
 
+}
+
+#folpng {
+    border-radius: 250px !important;
 }
